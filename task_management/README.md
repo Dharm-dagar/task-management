@@ -1,12 +1,34 @@
-# React + Vite
+# 📝 Task Management Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A lightweight task manager built using **FastAPI** as the backend. The app allows users to log in via Google, add, edit, delete, and manage their daily tasks in a clean and responsive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- 🔐 Google-based authentication
+- ➕ Add new tasks
+- 📝 Edit existing tasks
+- ❌ Delete tasks
+- 👁️ View all tasks in one place
+- 🎨 Simple and intuitive UI
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## ⚙️ Tech Stack
+
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: FastAPI (Python)
+- **Auth**: Google OAuth 2.0
+- **Database**: None (In-memory/session)
+
+---
+
+
+
+## 🧪 How to Run Locally
+
+### ▶️ Backend (FastAPI)
+```bash
+cd backend
+uvicorn main:app --reload
